@@ -112,6 +112,7 @@
 		49323C5526F924B200975E8A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				49323C5D26F9263300975E8A /* OtherViews */,
 				49323C5626F924BE00975E8A /* TaskViews */,
 			);
 			path = Views;
@@ -125,6 +126,13 @@
 				49323C5B26F925F200975E8A /* CreateTaskView.swift */,
 			);
 			path = TaskViews;
+			sourceTree = "<group>";
+		};
+		49323C5D26F9263300975E8A /* OtherViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OtherViews;
 			sourceTree = "<group>";
 		};
 		73340EAF26F7C9F900AAE07A = {
