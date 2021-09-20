@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,6 +103,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		49323C5526F924B200975E8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49323C5626F924BE00975E8A /* TaskViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49323C5626F924BE00975E8A /* TaskViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TaskViews;
+			sourceTree = "<group>";
+		};
 		73340EAF26F7C9F900AAE07A = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +143,7 @@
 		73340EBA26F7C9FA00AAE07A /* Roomies */ = {
 			isa = PBXGroup;
 			children = (
+				49323C5526F924B200975E8A /* Views */,
 				73340EBB26F7C9FA00AAE07A /* AppDelegate.swift */,
 				73340EBD26F7C9FA00AAE07A /* SceneDelegate.swift */,
 				73340EBF26F7C9FA00AAE07A /* ContentView.swift */,
@@ -176,7 +192,6 @@
 				CFFD46F11EEA4EA42D3E7AEA /* Pods-RoomiesTests.debug.xcconfig */,
 				ED02A15B57F331DE95E98FE2 /* Pods-RoomiesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
