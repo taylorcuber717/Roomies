@@ -9,7 +9,17 @@ import SwiftUI
 
 struct FloatButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Label("New", systemImage: "plus")
+            })
+            .padding(.horizontal, 16)
+            .padding(.vertical, 9)
+            .foregroundColor(.white)
+            .background(Color.purple)
+            .cornerRadius(20, antialiased: true)
+        }
+        .frame(maxWidth: .infinity, maxHeight: 105, alignment: .top)
     }
 }
 
