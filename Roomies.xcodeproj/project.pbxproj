@@ -10,6 +10,8 @@
 		0EEC4C559B63B7163DC503ED /* Pods_Roomies_RoomiesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51788A3F1CB0CC3F5CF4411 /* Pods_Roomies_RoomiesUITests.framework */; };
 		32139B55824F526F5E728232 /* Pods_RoomiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33637712DC4BF45191185D27 /* Pods_RoomiesTests.framework */; };
 		49323C5826F9255200975E8A /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49323C5726F9255200975E8A /* TaskCardView.swift */; };
+		49323C5A26F925DF00975E8A /* TasksPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49323C5926F925DF00975E8A /* TasksPageView.swift */; };
+		49323C5C26F925F200975E8A /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49323C5B26F925F200975E8A /* CreateTaskView.swift */; };
 		63463796FA5481FC35350906 /* Pods_Roomies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC46AB8DD286C4477A12D16B /* Pods_Roomies.framework */; };
 		73340EBC26F7C9FA00AAE07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73340EBB26F7C9FA00AAE07A /* AppDelegate.swift */; };
 		73340EBE26F7C9FA00AAE07A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73340EBD26F7C9FA00AAE07A /* SceneDelegate.swift */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		33637712DC4BF45191185D27 /* Pods_RoomiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49323C5726F9255200975E8A /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
+		49323C5926F925DF00975E8A /* TasksPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPageView.swift; sourceTree = "<group>"; };
+		49323C5B26F925F200975E8A /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
 		73340EB826F7C9FA00AAE07A /* Roomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73340EBB26F7C9FA00AAE07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73340EBD26F7C9FA00AAE07A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				49323C5726F9255200975E8A /* TaskCardView.swift */,
+				49323C5926F925DF00975E8A /* TasksPageView.swift */,
+				49323C5B26F925F200975E8A /* CreateTaskView.swift */,
 			);
 			path = TaskViews;
 			sourceTree = "<group>";
@@ -437,7 +443,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49323C5826F9255200975E8A /* TaskCardView.swift in Sources */,
+				49323C5C26F925F200975E8A /* CreateTaskView.swift in Sources */,
 				73340EBC26F7C9FA00AAE07A /* AppDelegate.swift in Sources */,
+				49323C5A26F925DF00975E8A /* TasksPageView.swift in Sources */,
 				73340EBE26F7C9FA00AAE07A /* SceneDelegate.swift in Sources */,
 				73340EC326F7C9FA00AAE07A /* Roomies.xcdatamodeld in Sources */,
 				73340EC026F7C9FA00AAE07A /* ContentView.swift in Sources */,
