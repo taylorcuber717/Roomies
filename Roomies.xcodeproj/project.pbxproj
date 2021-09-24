@@ -13,6 +13,8 @@
 		49323C5A26F925DF00975E8A /* TasksPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49323C5926F925DF00975E8A /* TasksPageView.swift */; };
 		49323C5C26F925F200975E8A /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49323C5B26F925F200975E8A /* CreateTaskView.swift */; };
 		49323C5F26F945CB00975E8A /* FloatButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49323C5E26F945CB00975E8A /* FloatButtonView.swift */; };
+		4969C93B26FE556C0016697C /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969C93A26FE556C0016697C /* TaskModel.swift */; };
+		4969C93E26FE57630016697C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969C93D26FE57630016697C /* Colors.swift */; };
 		63463796FA5481FC35350906 /* Pods_Roomies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC46AB8DD286C4477A12D16B /* Pods_Roomies.framework */; };
 		73340EBC26F7C9FA00AAE07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73340EBB26F7C9FA00AAE07A /* AppDelegate.swift */; };
 		73340EBE26F7C9FA00AAE07A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73340EBD26F7C9FA00AAE07A /* SceneDelegate.swift */; };
@@ -48,6 +50,8 @@
 		49323C5926F925DF00975E8A /* TasksPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPageView.swift; sourceTree = "<group>"; };
 		49323C5B26F925F200975E8A /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
 		49323C5E26F945CB00975E8A /* FloatButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatButtonView.swift; sourceTree = "<group>"; };
+		4969C93A26FE556C0016697C /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		4969C93D26FE57630016697C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		73340EB826F7C9FA00AAE07A /* Roomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73340EBB26F7C9FA00AAE07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73340EBD26F7C9FA00AAE07A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +142,22 @@
 			path = OtherViews;
 			sourceTree = "<group>";
 		};
+		4969C93926FE55450016697C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4969C93A26FE556C0016697C /* TaskModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4969C93C26FE57560016697C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4969C93D26FE57630016697C /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		73340EAF26F7C9F900AAE07A = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +183,8 @@
 		73340EBA26F7C9FA00AAE07A /* Roomies */ = {
 			isa = PBXGroup;
 			children = (
+				4969C93C26FE57560016697C /* Resources */,
+				4969C93926FE55450016697C /* Models */,
 				49323C5526F924B200975E8A /* Views */,
 				73340EBB26F7C9FA00AAE07A /* AppDelegate.swift */,
 				73340EBD26F7C9FA00AAE07A /* SceneDelegate.swift */,
@@ -454,8 +476,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49323C5826F9255200975E8A /* TaskCardView.swift in Sources */,
+				4969C93E26FE57630016697C /* Colors.swift in Sources */,
 				49323C5C26F925F200975E8A /* CreateTaskView.swift in Sources */,
 				73340EBC26F7C9FA00AAE07A /* AppDelegate.swift in Sources */,
+				4969C93B26FE556C0016697C /* TaskModel.swift in Sources */,
 				49323C5A26F925DF00975E8A /* TasksPageView.swift in Sources */,
 				73340EBE26F7C9FA00AAE07A /* SceneDelegate.swift in Sources */,
 				49323C5F26F945CB00975E8A /* FloatButtonView.swift in Sources */,
