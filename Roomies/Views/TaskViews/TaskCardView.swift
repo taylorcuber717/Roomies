@@ -25,6 +25,18 @@ struct TaskCardView: View {
                         Text(task.description!)
                             .padding(.trailing, 5)
                     }
+                    
+                    HStack {
+                        ForEach (task.participants, id: \.self) { participant in
+                            
+                                Text(participant)
+                                    .foregroundColor(Color.background)
+                            
+                        }
+                    }
+                    .frame(maxWidth: .infinity, alignment: .trailing)
+                    
+                    
                 }
                 .padding(.leading, 10)
         }
