@@ -14,10 +14,11 @@ struct TaskCardView: View {
         VStack(alignment: .leading) {
             
             Text(task.title)
+                .font(.system(size: 26))
+                .fontWeight(.bold)
                 .foregroundColor(Color.textColor)
+                .padding(.bottom, 5)
             
-            HStack(alignment: .top) {
-                
                 VStack(alignment: .leading, spacing: 3) {
                     
                     HStack(spacing: 3) {
@@ -25,15 +26,13 @@ struct TaskCardView: View {
                             .padding(.trailing, 5)
                     }
                 }
-                .padding(.leading, 30)
-            }
-            .padding(.leading, 30)
+                .padding(.leading, 10)
         }
         .padding(.vertical, 17)
         .padding(.horizontal, 20)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color.cardBackground)
-        .cornerRadius(10)
+        .cornerRadius(25)
         .padding(.horizontal, 15)
     }
 }

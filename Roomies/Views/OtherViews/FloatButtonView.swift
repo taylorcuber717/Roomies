@@ -15,11 +15,12 @@ struct FloatButtonView: View {
             })
             .padding(.horizontal, 16)
             .padding(.vertical, 9)
-            .foregroundColor(.white)
-            .background(Color.purple)
+            .foregroundColor(.customPurple)
+            .background(Color.black)
             .cornerRadius(20, antialiased: true)
         }
-        .frame(maxWidth: .infinity, maxHeight: 105, alignment: .top)
+        .frame(maxWidth: .infinity, maxHeight: 105, alignment: .topTrailing)
+        .padding(.trailing, 20)
     }
 }
 

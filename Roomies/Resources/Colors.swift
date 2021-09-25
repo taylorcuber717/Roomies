@@ -14,8 +14,8 @@ import SwiftUI
 extension Color {
     static let background = Color("Background")
     static let cardBackground = Color("CardBackground")
-    static let purple = Color("Purple")
-    static let gray = Color("Gray")
+    static let customPurple = Color("Purple")
+    static let customGray = Color("Gray")
     static let lightPurple = Color("LightPurple")
     static let secondaryBackground = Color("SecondaryBackground")
     static let textColor = Color("TextColor")
